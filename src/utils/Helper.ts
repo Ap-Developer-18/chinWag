@@ -35,7 +35,7 @@ export const ROADMAP_DATA = [
     { image: "/assets/images/webp/terms-img.webp", text: "Negotiate Engagement Terms Directly " },
     { image: "/assets/images/webp/rewards-img.webp", text: "Benefit from Pay-on-Time Rewards." },
 ]; 
-export const BENEFIT_DATA = [
+export const BENEFIT_DATA = [   
     {
         title: 'On-demand Talent',
         description: 'Review candidates and interview directly. Team extensions available from 1+ hires. Supercharge your growth with a flexible workforce',
