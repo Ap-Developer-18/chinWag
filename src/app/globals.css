@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto Slab", serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4F6367;
+  border-radius: 30px;
+}
+
+.animate-spin {
+  animation-duration: 3s;
+}
+
+.animate-move {
+  animation: iconMove 3s infinite alternate linear;
+}
+
+@keyframes iconMove {
+  to {
+    transform: translateY(15px);
+  }
+  from{
+    transform: translateY(-15px);
+  }
+}
+
+@media (max-width: 1400px) {
+  .translate_x {
+    transform: translateX(0px) !important;
+  }
+
+  .gap_20 {
+    gap: 20px;
+  }
+}
