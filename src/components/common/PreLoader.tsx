@@ -36,7 +36,7 @@ const PreLoader: React.FC = () => {
                         className='w-full pointer-events-none absolute top-0 max-w-[81px] sm:max-w-[155px] animate-spin'
                         priority
                     />
-                    <p className='sm:text-2xl text-sm font-medium tracking-widest relative text-medium-green'>CHIN-WAG <span className='absolute -top-0.5 -right-2.5 text-xs'>®</span></p>
+                    <p className='sm:text-2xl text-sm font-medium tracking-widest relative text-medium-green text-nowrap'>PERSONAL PORTFOLIO <span className='absolute -top-0.5 -right-2.5 text-xs'>®</span></p>
                 </div>
             </div>
             <div className={`min-h-screen w-1/2 bg-off-gray z-[100] fixed top-0 right-0 transition-transform duration-500 ${hide ? 'translate-x-full' : 'translate-x-0'}`}>
