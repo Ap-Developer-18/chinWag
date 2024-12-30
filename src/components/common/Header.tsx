@@ -9,11 +9,11 @@ const Header: React.FC = () => {
                 <nav className='flex items-center justify-between'>
                     <Link href="/" className='flex w-full max-w-[32px] sm:max-w-[63px]'>
                         <Image
-                            src="/assets/images/webp/logo.webp"
+                            src="/assets/images/webp/chin-logo.webp"
                             alt='logo'
                             width={95}
                             height={92}
-                            className='w-full pointer-events-none'
+                            className='w-full pointer-events-none animate-spin'
                             priority
                         />
                     </Link>
